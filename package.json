@@ -1,0 +1,16 @@
+{
+  "name": "9",
+  "version": "1.0.0",
+  "description": "class on node for set 09",
+  "main": "index.ts",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1",
+    "start": "ts-node-dev --respawn node.ts"
+  },
+  "author": "Godswill Udida",
+  "license": "ISC",
+  "keywords": [],
+  "dependencies": {
+    "node": "^21.7.1"
+  }
+}
