@@ -1,7 +1,8 @@
 import * as assert from 'assert';
-import fs from "fs"
+// import fs from "fs"
+import {Buffer} from "buffer"
 
-const content = "Welcome to fs in node"
+// const content = "Welcome to fs in node"
 
 // fs.writeFile("fsFile.tx", content, (err) => {
 //     if (err) {
@@ -58,7 +59,16 @@ const content = "Welcome to fs in node"
 
 
 
-fs.readdirSync("node_modules")
+
+// fs.readdirSync("node_modules")
+ 
+
+// Creating a buffer of 10 Octets
+
+// const createBuffer = Buffer.alloc(10);
+const createBuffer = Buffer.allocUnsafe(10);
+
+console.log(createBuffer);
 
 
 
