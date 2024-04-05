@@ -144,7 +144,6 @@ import OS from "os";
 
 const name = OS.hostname()
 
-// const getSystemPlatform = OS.platform()
 
 const a: string = OS.arch(); 
 const b: any = OS.userInfo(); 
