@@ -12,5 +12,8 @@
   "keywords": [],
   "dependencies": {
     "node": "^21.7.1"
+  },
+  "devDependencies": {
+    "@types/node": "^20.12.4"
   }
 }
